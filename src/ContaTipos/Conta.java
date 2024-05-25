@@ -1,3 +1,5 @@
+package ContaTipos;
+
 public abstract class Conta implements RegrasConta{
     private static int AGENCIA_PADRAO = 470970;
     private static int SEQUENCIAL = 1;
@@ -5,6 +7,8 @@ public abstract class Conta implements RegrasConta{
     protected int agencia;
     protected int numero;
     protected double saldo;
+
+
 
     public Conta() {
         this.agencia = AGENCIA_PADRAO;

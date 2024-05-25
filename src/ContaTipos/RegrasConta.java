@@ -1,3 +1,5 @@
+package ContaTipos;
+
 public interface RegrasConta {
 
       void sacar(double valor);
