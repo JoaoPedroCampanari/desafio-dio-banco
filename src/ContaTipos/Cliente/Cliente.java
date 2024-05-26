@@ -42,9 +42,25 @@ public class Cliente {
         this.idade = idade;
     }
 
+    public Conta getContaTipo() {
+        return contaTipo;
+    }
+
+    public void setContaTipo(Conta contaTipo) {
+        this.contaTipo = contaTipo;
+    }
+
+    public String getBancoTipo() {
+        return bancoTipo;
+    }
+
+    public void setBancoTipo(String bancoTipo) {
+        this.bancoTipo = bancoTipo;
+    }
+
     @Override
     public String toString() {
         return "Nome: " + nomeCliente + "\nIdade: " + idade +"\nBanco: " + bancoTipo
-                + "\nAgencia: " + contaTipo.getAgencia() + "-" + contaTipo.getNumero() + "\n";
+                + "\nAgencia: " + contaTipo.getAgencia() + "-" + contaTipo.getNumero() + "\nSaldo: " + contaTipo.getSaldo() + "\n";
     }
 }

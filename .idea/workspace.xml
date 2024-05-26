@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8152ac0-53cb-4897-bdca-c0f31d9b8c07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BancoFuncs/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaTipos/Cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Banco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaTipos/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaTipos/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaTipos/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegrasConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaTipos/RegrasConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-banco/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-banco/BancoFuncs/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-banco/BancoFuncs/Banco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-banco/BancoFuncs/ListaCliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-banco/ContaTipos/Cliente/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-banco/ContaTipos/Cliente/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-banco/ContaTipos/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-banco/ContaTipos/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/desafio-dio-banco/Program/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/desafio-dio-banco/Program/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BancoFuncs/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BancoFuncs/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BancoFuncs/ListaCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaTipos/Cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaTipos/Cliente/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaTipos/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaTipos/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,27 +46,36 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Program.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\João\IdeaProjects\desafio-dio-banco" />
       <recent name="C:\Users\João\IdeaProjects\desafio-dio-banco\src" />
+      <recent name="C:\Users\João\IdeaProjects\desafio-dio-banco\.idea" />
       <recent name="C:\Users\João\IdeaProjects\desafio-dio-banco\src\Banco" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,7 +86,9 @@
       <option name="presentableId" value="Default" />
       <updated>1716653550202</updated>
       <workItem from="1716653551197" duration="9623000" />
-      <workItem from="1716672881201" duration="4701000" />
+      <workItem from="1716672881201" duration="5403000" />
+      <workItem from="1716729031638" duration="20000" />
+      <workItem from="1716743825350" duration="1073000" />
     </task>
     <servers />
   </component>

@@ -50,12 +50,15 @@ public class Program {
 
             banco.adicionarClient(new Cliente(clientNome, clientSenha, clientIdade, contaEscolhida, bancoNome));
             System.out.println("Cliente Registrado!\nDeseja registrar outro cliente? (S/N)");
-            resp = sc.next().charAt(0);
+            resp = Character.toUpperCase(sc.next().charAt(0));
 
 
         } while (resp == 'S');
 
-        banco.listarClientes();
+
+        banco.listarClientes().get(0).getContaTipo().depositar(124124.2);
+
+        System.out.println(banco.listarClientes());
 
         sc.close();
     }
